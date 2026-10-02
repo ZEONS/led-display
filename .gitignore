@@ -1,0 +1,18 @@
+# Temporary scripts
+*.py
+
+# Intermediate extracted assets
+assets/pdf_pages/
+assets/extracted/
+assets/crops/
+assets/pdf_pages_overview.jpg
+
+# Root PDF (Brochure is stored cleanly in assets/ZEONS_B2B_LED_Brochure.pdf)
+/*.pdf
+!assets/ZEONS_B2B_LED_Brochure.pdf
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
